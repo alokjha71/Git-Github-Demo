@@ -36,3 +36,20 @@ a)clone-Cloning a repository on our local machine
 b)status-display the status of the code
      git status
 
+10)Some Basic Concepts:a)untracked:new files that git does not yet track
+b)modified:Change
+c)staged:File is ready to be commited
+d)unmodified:unchanged
+
+11)Add :add->adds new or changed files in your working directory to the Git staging area
+      git add<--filename-->
+
+12)Commit:It is the record of change
+        git commit -m "some message"
+
+13)push command:To upload local repo content to remote repo
+      git push origin main
+
+      Remote(Github)->local(Laptop)
+
+14)
